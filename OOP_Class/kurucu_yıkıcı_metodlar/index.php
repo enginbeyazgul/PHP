@@ -12,9 +12,9 @@ class DB
     }
     public function __destruct()
     {
-        $this->db = null;
+        $this->db = null;//işimiz bittikten sonra metodu yıktık
     }
 }
-$db = new DB('localhost','root','');//DB clasını başlatıp ayarları yolladık
+$db = new DB('localhost','root','');//DB clasını başlatıp parametre yolladık
 echo $db->getData();//dataları gösterdik
 ?>
