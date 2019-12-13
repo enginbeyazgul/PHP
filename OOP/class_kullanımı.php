@@ -22,7 +22,7 @@ class Uye
     }
 }
 
-//class ı değişkene alma
+//class ı başlatma
 $uye = new Uye;
 
 //class içindeki değişkene atama yapmak
